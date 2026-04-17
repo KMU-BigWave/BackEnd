@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 티격태격 백엔드
 
 현재는 `webserver` 스타일에 맞춘 기본 골격만 둔 상태입니다.
@@ -43,3 +44,7 @@ npm run dev
 - API는 하나씩만 구현
 - 구현할 때마다 `route -> controller -> model -> swagger` 순서로 추가
 - 각 API마다 검수 후 다음 API 진행
+=======
+# BackEnd
+Backend
+>>>>>>> 450b8a2eb896c20d5d3f7cc473454ad9236894f0
