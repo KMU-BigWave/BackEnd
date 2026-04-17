@@ -1,0 +1,55 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "TigyeokTaegyeok API",
+    "version": "0.1.0",
+    "description": "Backend API skeleton for the capstone project"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:4000"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Health check",
+        "responses": {
+          "200": {
+            "description": "Server health response"
+          }
+        }
+      }
+    },
+    "/auth/google/login": {
+      "get": {
+        "summary": "Google OAuth login entrypoint",
+        "responses": {
+          "501": {
+            "description": "Not implemented yet"
+          }
+        }
+      }
+    },
+    "/swagger.json": {
+      "get": {
+        "summary": "OpenAPI JSON document",
+        "responses": {
+          "200": {
+            "description": "Swagger specification document"
+          }
+        }
+      }
+    },
+    "/api-docs": {
+      "get": {
+        "summary": "Swagger UI",
+        "responses": {
+          "200": {
+            "description": "Swagger UI page"
+          }
+        }
+      }
+    }
+  }
+}
